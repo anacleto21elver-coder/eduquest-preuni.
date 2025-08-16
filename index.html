@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PreUniQuest — Simulador UNI (Razonamiento Verbal)</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Simulador dinámico de preguntas inspiradas en Razonamiento Verbal UNI. Carga desde JSON, cronómetro, puntaje y revisión de respuestas." />
+</head>
+<body>
+  <header class="topbar">
+    <h1>PreUniQuest <span>Simulador UNI</span></h1>
+    <div class="actions">
+      <button id="darkToggle" title="Modo oscuro">🌙</button>
+      <a class="btn ghost" href="#" id="downloadState" title="Exportar resultados (.json)">⬇ Exportar</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <h2>Razonamiento Verbal — Práctica</h2>
+      <p>Banco de preguntas <strong>inspiradas</strong> en el estilo de admisión de la <strong>UNI</strong>. Elige parámetros y comienza el simulacro.</p>
+
+      <div class="controls">
+        <label>
+          Categoría
+          <select id="categoria">
+            <option value="UNI-Verbal">UNI-Verbal</option>
+          </select>
+        </label>
+        <label>
+          Nº de preguntas
+          <input type="number" id="numPreguntas" min="3" max="50" value="10" />
+        </label>
+        <label>
+          Tiempo (min)
+          <input type="number" id="minutos" min="1" max="180" value="10" />
+        </label>
+        <button id="btnComenzar" class="btn primary">Comenzar</button>
+      </div>
+    </section>
+
+    <section id="quiz" class="card hidden">
+      <div class="quiz-head">
+        <div class="progress-wrap">
+          <div id="progress" class="progress"></div>
+        </div>
+        <div class="meta">
+          <span id="contador">1 / 10</span>
+          <span id="timer">10:00</span>
+        </div>
+      </div>
+
+      <h3 id="enunciado" class="enunciado"></h3>
+      <ul id="opciones" class="opciones"></ul>
+      <div id="explicacion" class="explicacion hidden"></div>
+
+      <div class="nav">
+        <button id="btnAnterior" class="btn ghost" disabled>← Anterior</button>
+        <button id="btnSiguiente" class="btn">Siguiente →</button>
+        <button id="btnFinalizar" class="btn danger">Finalizar</button>
+      </div>
+    </section>
+
+    <section id="resultado" class="card hidden">
+      <h2>Resultado</h2>
+      <p id="resumen"></p>
+
+      <div class="score-cards">
+        <div class="pill ok" id="pillOk">0 correctas</div>
+        <div class="pill bad" id="pillBad">0 incorrectas</div>
+        <div class="pill neutro" id="pillNeutro">0 sin responder</div>
+      </div>
+
+      <details class="review">
+        <summary>Revisar preguntas y respuestas</summary>
+        <ol id="revisiónLista"></ol>
+      </details>
+
+      <div class="result-actions">
+        <button class="btn ghost" id="btnReintentar">Reintentar</button>
+        <button class="btn primary" id="btnNuevo">Nuevo simulacro</button>
+      </div>
+    </section>
+
+    <section class="card tip">
+      <h3>Cómo añadir más preguntas</h3>
+      <p>Edita el archivo <code>preguntas.json</code> y agrega objetos con este formato:</p>
+<pre><code>{
+  "categoria": "UNI-Verbal",
+  "anio": 2020,
+  "origen": "inspirado",
+  "pregunta": "Enunciado aquí...",
+  "opciones": ["A", "B", "C", "D", "E"],
+  "respuesta": 2,
+  "explicacion": "Breve justificación de la alternativa correcta."
+}</code></pre>
+      <p><strong>Nota:</strong> Evita copiar texto protegido literalmente; resume/parafrasea para uso educativo.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 PreUniQuest — Simulador educativo. No afiliado a la UNI.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

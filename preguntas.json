@@ -1,0 +1,152 @@
+[
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2019,
+    "origen": "inspirado",
+    "pregunta": "Seleccione el sinónimo más cercano de «inexorable».",
+    "opciones": [
+      "Implacable",
+      "Benigno",
+      "Flexible",
+      "Condescendiente",
+      "Voluble"
+    ],
+    "respuesta": 0,
+    "explicacion": "«Inexorable» equivale a que no cede o no se puede evitar; «implacable» es el término más próximo."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2020,
+    "origen": "inspirado",
+    "pregunta": "Complete la analogía: PLAN es a PROYECTO como BOCETO es a ______.",
+    "opciones": [
+      "Borrador",
+      "Diseño",
+      "Maqueta",
+      "Ejecución",
+      "Misión"
+    ],
+    "respuesta": 2,
+    "explicacion": "Plan guarda relación de fase previa con proyecto; del mismo modo, boceto corresponde a maqueta como etapa previa de materialización."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2018,
+    "origen": "inspirado",
+    "pregunta": "Señale el antónimo de «prolífico».",
+    "opciones": [
+      "Esteril",
+      "Abundante",
+      "Productivo",
+      "Fecundo",
+      "Fértil"
+    ],
+    "respuesta": 0,
+    "explicacion": "«Prolífico» indica abundancia o productividad; su opuesto es «estéril»."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2021,
+    "origen": "inspirado",
+    "pregunta": "En la oración: «El comité, aunque dividido, aprobó la moción», la conjunción «aunque» introduce una relación de:",
+    "opciones": [
+      "Causa",
+      "Oposición",
+      "Conclusión",
+      "Condición",
+      "Comparación"
+    ],
+    "respuesta": 1,
+    "explicacion": "«Aunque» es una conjunción concesiva que expresa oposición parcial al enunciado principal."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2017,
+    "origen": "inspirado",
+    "pregunta": "Identifique la oración con adecuado uso de la tilde diacrítica.",
+    "opciones": [
+      "Tu dices que él si vendrá.",
+      "Tú dices que él sí vendrá.",
+      "Tu dices que el si vendrá.",
+      "Tú dices que el sí vendrá.",
+      "Tu dices que él sí vendrá."
+    ],
+    "respuesta": 1,
+    "explicacion": "Pronombre «tú», pronombre «él» y adverbio de afirmación «sí» llevan tilde: «Tú dices que él sí vendrá.»"
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2016,
+    "origen": "inspirado",
+    "pregunta": "¿Cuál es el significado más cercano de «anodino»?",
+    "opciones": [
+      "Insustancial",
+      "Doloroso",
+      "Enérgico",
+      "Contundente",
+      "Trascendente"
+    ],
+    "respuesta": 0,
+    "explicacion": "«Anodino» significa carente de importancia o efecto: «insustancial»."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2022,
+    "origen": "inspirado",
+    "pregunta": "Complete la relación: CAUTELOSO : PRUDENTE :: TEMERARIO : ____",
+    "opciones": [
+      "Imprudente",
+      "Valeroso",
+      "Cauto",
+      "Sagaz",
+      "Tímido"
+    ],
+    "respuesta": 0,
+    "explicacion": "Cauteloso se relaciona con prudente; temerario con imprudente (opuesta prudencia)."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2015,
+    "origen": "inspirado",
+    "pregunta": "En el enunciado «Se lo dije ayer», el pronombre «lo» funciona como:",
+    "opciones": [
+      "Objeto directo",
+      "Objeto indirecto",
+      "Aposición",
+      "Modificador circunstancial",
+      "Sujeto elíptico"
+    ],
+    "respuesta": 0,
+    "explicacion": "«Lo» sustituye al objeto directo de la oración."
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2014,
+    "origen": "inspirado",
+    "pregunta": "Marque la alternativa con redacción más clara y concisa (principio de economía del lenguaje).",
+    "opciones": [
+      "Debido a la razón de que no asistió, se canceló la reunión.",
+      "En razón de que él no asistió, la reunión fue cancelada.",
+      "Porque no asistió, se canceló la reunión.",
+      "La reunión fue cancelada por la no asistencia del mismo.",
+      "Se canceló, por lo cual, reunión por inasistencia."
+    ],
+    "respuesta": 2,
+    "explicacion": "La opción C es directa y evita redundancias: «Porque no asistió, se canceló la reunión.»"
+  },
+  {
+    "categoria": "UNI-Verbal",
+    "anio": 2013,
+    "origen": "inspirado",
+    "pregunta": "¿Cuál de las siguientes presenta un uso correcto de «a ver» y «haber»?",
+    "opciones": [
+      "Vamos haber si hoy llueve.",
+      "Debe de a ver más opciones disponibles.",
+      "A ver si terminas; no puede haber excusas.",
+      "Quiero haber si hay entradas.",
+      "No debe de haber deudas, a ver."
+    ],
+    "respuesta": 2,
+    "explicacion": "«A ver» (locución) y «haber» (verbo impersonal) están bien usados en la opción C."
+  }
+]
